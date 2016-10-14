@@ -24,12 +24,13 @@ public class FlightRestController {
 	
 	@RequestMapping(value="", method=RequestMethod.GET)
 	public Iterable<Flight> listOfFlights() {
-		List<Flight> list = new ArrayList<Flight>();
+		/*List<Flight> list = new ArrayList<Flight>();
 		list.add(new Flight(100, new Date(), "Delhi"));
 		list.add(new Flight(101, new Date(), "Dilli"));
-		list.add(new Flight(102, new Date(), "New Delhi"));
-		//return flightRepository.findAll();
-		return list;
+		list.add(new Flight(102, new Date(), "New Delhi"));*/
+		return flightRepository.findAll();
+		//return list;
+		//throw new RuntimeException("Unable to Service.....");
 	}
 	
 	@RequestMapping(value="/{id}", method=RequestMethod.GET)
