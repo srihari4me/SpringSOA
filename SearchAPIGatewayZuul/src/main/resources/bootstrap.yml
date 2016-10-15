@@ -30,6 +30,8 @@ zuul:
   routes:
     search-service:
       path: /search/**
+    search-service-oauth:
+      path: /search/**
 
 #logging:
 #  level:
