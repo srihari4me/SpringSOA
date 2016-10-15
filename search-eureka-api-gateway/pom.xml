@@ -109,6 +109,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>search-apigateway</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
