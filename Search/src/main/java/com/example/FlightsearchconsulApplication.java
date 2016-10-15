@@ -42,8 +42,8 @@ public class FlightsearchconsulApplication implements CommandLineRunner {
 		flightRepository.save(flights);
 		
 		System.out.println("Looking to load flights...");
-		for (Flight flight : flightRepository.findByOriginAndDestinationAndFlightDate("NYC", "SFO", "22-JAN-16")) {
+		/*for (Flight flight : flightRepository.findByOriginAndDestinationAndFlightDate("NYC", "SFO", "22-JAN-16")) {
 	        System.out.println(flight.toString());
-	    }
+	    }*/
 	}
 }

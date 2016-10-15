@@ -26,6 +26,11 @@ spring:
   application:
     name: search-service
 
+#logging:
+#  level:
+#    root: trace
+#    org.springframework.web: trace
+    
 #server:
 #  port:  8003   
       
